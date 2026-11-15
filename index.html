@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>xoamagame</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="FIX MÃ ẨN IOS - CÁCH FIX MÃ ẨN IPHONE - Android" />
+    <link rel="canonical" href="https://xoamagame.pro/" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="/js/config.js"></script>
+    <script>
+      (function () {
+        var isAdmin = location.pathname.indexOf("/admin") === 0;
+        if (isAdmin) {
+          document.title = "Admin — Cấp code";
+          var css = document.createElement("link");
+          css.rel = "stylesheet";
+          css.href = "/css/admin.css";
+          document.head.appendChild(css);
+          var s = document.createElement("script");
+          s.src = "/js/admin-app.js";
+          document.head.appendChild(s);
+        } else {
+          if (typeof window.getPageTitle === "function") {
+            document.title = window.getPageTitle();
+          }
+          var s = document.createElement("script");
+          s.type = "module";
+          s.crossOrigin = "";
+          s.src = "/assets/index-DuycFTHn.js";
+          document.head.appendChild(s);
+          var c = document.createElement("link");
+          c.rel = "stylesheet";
+          c.crossOrigin = "";
+          c.href = "/assets/index-D3Fn8b5X.css";
+          document.head.appendChild(c);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+  
+<script id="hub-domains-json-loader">
+(function(){
+  function isHttpUrl(u){ return typeof u==="string" && /^https?:\/\//i.test(u.trim()); }
+  function pick(e){
+    if(!e) return "";
+    if(typeof e==="string") return isHttpUrl(e)?e.trim():"";
+    var c=e.main_url||e.url||e.messenger_url||e.target_url||"";
+    return isHttpUrl(c)?String(c).trim():"";
+  }
+  function apply(u){
+    if(!isHttpUrl(u)) return;
+    window.REDIRECT_URL=u;
+    window.__HUB_LINK__=u;
+    var links=document.querySelectorAll('a.redirect-link,a.ref-btn,a.btn-register,a.cta-btn,#main-cta');
+    for(var i=0;i<links.length;i++){ links[i].setAttribute('href',u); links[i].href=u; }
+  }
+  fetch('/domains.json?v='+Date.now()).then(function(r){return r.json();}).then(function(d){
+    if(!d) return;
+    var h=(window.location.hostname||'').toLowerCase();
+    var nh=h.replace(/^www\./,'');
+    var e=d[h]||d[nh]||d['www.'+nh];
+    apply(pick(e));
+  }).catch(function(){});
+})();
+</script>
+</body>
+</html>

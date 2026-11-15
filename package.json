@@ -1,0 +1,10 @@
+{
+  "name": "lp-9d-xoaip-mm88",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing xoamagame.pro (MM88) + config link theo domain",
+  "scripts": {
+    "start": "npx --yes serve -l 3010 .",
+    "dev": "npx --yes serve -l 3010 ."
+  }
+}
