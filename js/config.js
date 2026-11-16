@@ -6,7 +6,7 @@ window.SITE_CONFIG = {
   defaultLink: "",
 
   // Support contacts (fallback nếu domain không khớp)
-  telegramUrl: "",
+  telegramUrl: "https://t.me/Bosstong6898",
   zaloUrl: "", // bỏ Zalo
 
   // Admin login (local)
@@ -21,8 +21,8 @@ window.SITE_CONFIG = {
   },
 
   telegramByDomain: {
-    "www.xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e23qc",
-    "xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e23qc",
+    "www.xoamagame.pro": "https://t.me/Bosstong6898",
+    "xoamagame.pro": "https://t.me/Bosstong6898",
   },
 
   titleByDomain: {},
