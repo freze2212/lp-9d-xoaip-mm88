@@ -16,8 +16,8 @@ window.SITE_CONFIG = {
   },
 
   linksByDomain: {
-    "www.xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e23qc",
-    "xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e23qc",
+    "www.xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e26qc",
+    "xoamagame.pro": "https://www.mm88q.com/register?affiliateCode=mm88e2e26qc",
   },
 
   telegramByDomain: {
